@@ -1,0 +1,7 @@
+
+
+
+
+- Pozicije za koliko se pomice kursor i razmaci i dubina i slicne vrijednosti moraju 
+  biti definirane kao #define.
+- Napraviti pravi log objekt da se nomora vise koristititi printf

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="CODE">
+      <UniqueIdentifier>{481ca566-3fd3-4dc5-a6a4-ce1c49fa43d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\Main">
+      <UniqueIdentifier>{81c12360-254f-4f8f-901a-a0896824e92c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\Engine">
+      <UniqueIdentifier>{6b453385-69f1-41e5-884c-702dd1108ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\Global">
+      <UniqueIdentifier>{80740bc2-d2a0-4dde-9517-73d3085ff734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Qubicon.cpp">
+      <Filter>CODE\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>CODE\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cAnimator.cpp">
+      <Filter>CODE\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cBitmap.cpp">
+      <Filter>CODE\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cButton.cpp">
+      <Filter>CODE\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cCube.cpp">
+      <Filter>CODE\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cEngine.cpp">
+      <Filter>CODE\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cFrame.cpp">
+      <Filter>CODE\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cHUD.cpp">
+      <Filter>CODE\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cLevel.cpp">
+      <Filter>CODE\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cTile.cpp">
+      <Filter>CODE\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Framerate.cpp">
+      <Filter>CODE\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cAssetManager.cpp">
+      <Filter>CODE\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cGlobal.cpp">
+      <Filter>CODE\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cGlobalBasic.cpp">
+      <Filter>CODE\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cIntro.cpp">
+      <Filter>CODE\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cSettings.cpp">
+      <Filter>CODE\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="include\namedef.cpp">
+      <Filter>CODE\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cHUDCube.cpp">
+      <Filter>CODE\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Qubicon.h">
+      <Filter>CODE\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>CODE\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>CODE\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cAnimator.h">
+      <Filter>CODE\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cBitmap.h">
+      <Filter>CODE\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cButton.h">
+      <Filter>CODE\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cCube.h">
+      <Filter>CODE\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cEngine.h">
+      <Filter>CODE\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cFrame.h">
+      <Filter>CODE\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cHUD.h">
+      <Filter>CODE\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cLevel.h">
+      <Filter>CODE\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cTile.h">
+      <Filter>CODE\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Framerate.h">
+      <Filter>CODE\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameapi.h">
+      <Filter>CODE\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gamedef.h">
+      <Filter>CODE\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cAssetManager.h">
+      <Filter>CODE\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cGlobal.h">
+      <Filter>CODE\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cGlobalBasic.h">
+      <Filter>CODE\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cIntro.h">
+      <Filter>CODE\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cSettings.h">
+      <Filter>CODE\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="include\namedef.h">
+      <Filter>CODE\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cHUDCube.h">
+      <Filter>CODE\Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Qubicon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Qubicon.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="todo.txt" />
+  </ItemGroup>
+</Project>

@@ -5,7 +5,7 @@ Cubicon is a techical prototype of a 3D puzzle game.
 
 ## Description
 
-Cubicon is a techical prototype for a 3D puzzle game where a random photograph is selected from the user cellphone and devided into nxn square textures and then mapped to a qube. The user task is to rearange the photograph in to original image in a specified amount of time.
+Cubicon is a technical prototype for a 3D puzzle game where a random photograph is selected from the user cellphone and divided into nxn square textures and then mapped to a qube. The user task is to rearrange the photograph in to original image in a specified amount of time.
 
 
 ### Requirements
